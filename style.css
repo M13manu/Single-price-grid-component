@@ -1,0 +1,134 @@
+body{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: hsl(204, 43%, 93%);
+  font-family: Karla;
+}
+main{
+  background-color: white;
+  height: 32rem;
+  width: 47rem;
+  border-radius: 10px;
+}
+.gain{
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  padding: 40px;
+  font-size: 18px;
+  height: 164.109px;
+}
+.gain-details{
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  font-size: 18px;
+}
+h1{
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-top: 0rem;
+}
+h3{
+  color: white;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.sign-up,.info{
+  padding: 40px;
+}
+.sign-up{
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  float: left;
+  width: 296px;
+  height: 204.56px;
+  border-radius: 0px 0px 0px 10px;
+}
+.amount{
+  font-size: 35px;
+  font-weight: 700;
+}
+.duration{
+  color: #c8dad9;
+  margin-left: 10px;
+}
+button{
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 296px;
+  height: 55px;
+  margin: 10px 0px;
+}
+button:hover{
+  background-color: hsl(71, 86%, 40%);
+}
+button:active{
+    background-color: hsl(71, 73%, 54%);
+}
+p{
+  color: white;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 16px;
+}
+.info{
+  float: right;
+  background-color: hsl(179, 64%, 45%);
+  width: 296px;
+  height: 204.56px;
+  border-radius: 0px 0px 10px 0px;
+}
+.p-info{
+  color: #c8dad9;
+  margin: 0px;
+  font-size: 14px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(71, 86%, 40%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 375px){
+main{
+  display: grid;
+  border-radius: initial;
+  height: initial;
+  width: initial;
+  margin: 20px 30px;;
+}
+  .gain,.sign-up,.info{
+    border-radius: initial;
+    height: initial;
+    width: initial;
+  }
+  body{
+    display: grid;
+    place-content: center;
+    justify-content: space-between;
+  }
+  h1{
+    font-size: 30px;
+  }
+  .gain-details{
+    font-size: 16px;
+  }
+  .gain{
+    border-radius: 10px 10px 0px 0px;
+  }
+  .info{
+    border-radius: 0px 0px 10px 10px;
+  }
+  main{
+    border-radius: 10px;
+  }
+}
